@@ -1,0 +1,12 @@
+[
+  "Bicicleta [ent.discipline] [ent.brand] [ent.model]",
+  "Bicicleta [ent.discipline] [ent.brand]",
+  "Bici [ent.discipline] [ent.brand]",
+  "Bicicleta [ent.discipline] [ent.brand] del año [ent.year]",
+  "Bicicleta [ent.discipline] [ent.brand] del [ent.year]",
+  "Bicicleta [ent.discipline] [ent.brand] talla [ent.size] con tija de [ent.material]",
+  "Bicicleta de [ent.discipline] cuadro de [ent.material] y horquilla de [ent.material]",
+  "Cuadro de [ent.material] en talla [ent.size]",
+  "Bici de [ent.discipline]. Talla [ent.size] (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
+  "Bicicleta de [ent.discipline]/[ent.discipline] [ent.brand] del año [ent.year]"
+]

@@ -1,0 +1,66 @@
+{
+  "ent.brand": [
+    "Orbea",
+    "Canyon",
+    "Trek",
+    "Van Rysel",
+    "Triban",
+    "Specialized",
+    "Monster",
+    "Cube",
+    "Megamo",
+    "Specialized",
+    "Giant",
+    "Kona",
+    "Scott",
+    "Specialized",
+    "Bianchi",
+    "Sworks",
+    "Cannondale",
+    "Pinarello",
+    "Cervelo",
+    "Mondraker",
+    "Bh",
+    "Btwin"
+  ],
+  "ent.discipline": [
+    "gravel",
+    "mtb",
+    "carretera",
+    "mountain bike",
+    "montaña",
+    "fixie",
+    "backpaking"
+  ],
+  "ent.model": [
+    "alma",
+    "oiz",
+    "rove",
+    "nuroad",
+    "grizl"
+  ],
+  "ent.size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "ent.year": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "ent.material": [
+    "aluminio",
+    "carbono",
+    "acero"
+  ]
+}
