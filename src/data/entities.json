@@ -77,5 +77,10 @@
     "700",
     "750",
     "800"
-  ]
+  ],
+  "ent.models": {
+    "Orbea": ["alma", "oiz", "terra"],
+    "Cube": ["nuroad"],
+    "Giant": ["revolt"]
+  }
 }

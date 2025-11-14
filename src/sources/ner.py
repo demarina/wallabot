@@ -6,6 +6,9 @@ import re
 
 
 class Ner:
+    ENT_MODEL = 'ent.model'
+    ENT_MODELS = 'ent.models'
+    ENT_BRAND = 'ent.brand'
     ENTITIES_FILE_NAME = 'entities.json'
     NER_PHRASES_FILE_NAME = 'ner_phrases.json'
     ANNOTATIONS_FILE_NAME = 'annotations.json'
@@ -36,12 +39,22 @@ class Ner:
             new_phrase = phrase
             matches = re.finditer(self.REGEX_PATTERN, phrase)
 
+            e_brand_value = None
+
             for m in matches:
                 e_type = m.group(0)
                 start = new_phrase.find(e_type)
 
                 e_type_key = e_type.replace('[', '').replace(']', '')
-                entity_value = random.choice(entities[e_type_key])
+
+                if e_type_key == self.ENT_BRAND:
+                    entity_value = random.choice(entities[e_type_key])
+                    e_brand_value = entity_value
+                else:
+                    if e_brand_value is not None and e_type_key == self.ENT_MODEL:
+                        entity_value = random.choice(entities[self.ENT_MODELS].get(e_brand_value, entities[e_type_key]))
+                    else:
+                        entity_value = random.choice(entities[e_type_key])
 
                 entities_info.append([start, (start + len(entity_value)), entity_value])
                 new_phrase = new_phrase.replace(e_type, entity_value, 1)
