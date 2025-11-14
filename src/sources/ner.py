@@ -3,6 +3,13 @@ import json
 import os
 import random
 import re
+from typing import List, Dict
+
+import spacy
+import spacy_lookups_data
+from spacy.training import Example
+from spacy.util import minibatch
+from thinc.schedules import compounding
 
 
 class Ner:
@@ -13,12 +20,15 @@ class Ner:
     NER_PHRASES_FILE_NAME = 'ner_phrases.json'
     TRAINING_SET_FILE_NAME = 'training_set.json'
 
+    MODEL_SPACY = 'es_core_news_sm'
+    WALLABOT_MODEL_NAME = 'wallabot_model'
+
     REGEX_PATTERN = r'\[ent\.[^\]]+\]'
 
     def __init__(self):
         pass
 
-    def annotated_data(self):
+    def generate_training_data(self) -> None:
         entities_file = os.path.join(os.path.dirname(__file__), '..', 'data', self.ENTITIES_FILE_NAME)
         if os.path.exists(entities_file):
             entities = json.load(open(entities_file))
@@ -56,7 +66,7 @@ class Ner:
                     else:
                         entity_value = random.choice(entities[e_type_key])
 
-                entities_info.append([start, (start + len(entity_value)), entity_value])
+                entities_info.append([start, (start + len(entity_value)), e_type_key])
                 new_phrase = new_phrase.replace(e_type, entity_value, 1)
 
             annotated_data.append(
@@ -66,11 +76,68 @@ class Ner:
                 }
             )
 
-        annotated_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.TRAINING_SET_FILE_NAME)
-        with open(annotated_data_file_path, 'w', encoding='utf-8') as f:
+        training_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.TRAINING_SET_FILE_NAME)
+        with open(training_data_file_path, 'w', encoding='utf-8') as f:
             f.write(json.dumps(annotated_data, indent=4, ensure_ascii=False))
 
-        print(f'File "{annotated_data_file_path}" created.')
+        print(f'File "{training_data_file_path}" created.')
+
+    def train(self) -> None:
+        #nlp = spacy.load(self.MODEL_SPACY)
+        training_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.TRAINING_SET_FILE_NAME)
+
+        with open(training_data_file_path, 'r') as f:
+            training_data = json.load(f)
+
+        nlp = spacy.blank("es")
+        nlp.add_pipe("lemmatizer", config={"mode": "rule"})
+
+        #lookups = spacy_lookups_data.load_data("es")
+        #nlp.get_pipe("lemmatizer").initialize(lambda: lookups)
+
+        ner = nlp.add_pipe("ner")
+
+        for item in training_data:
+            for ent in item['entities']:
+                ner.add_label(ent[2])
+
+        n_iter = 30
+        optimizer = nlp.initialize()
+
+        print('Start training')
+
+        for epoch in range(n_iter):
+            random.shuffle(training_data)
+            losses = {}
+
+            for entry in training_data:
+                text = entry["text"]
+                ents = entry["entities"]
+                doc = nlp.make_doc(text)
+
+                example = Example.from_dict(doc, {"entities": ents})
+
+                nlp.update([example], losses=losses, drop=0.2, sgd=optimizer)
+
+        nlp.to_disk(self.WALLABOT_MODEL_NAME)
+        print(f'Finish training. Model save in {self.WALLABOT_MODEL_NAME}')
+
+    def predict(self, query: str) -> List[Dict]:
+        nlp_model = spacy.load(self.WALLABOT_MODEL_NAME)
+        predict = nlp_model(query)
+        result = []
+        for ent in predict.ents:
+            result.append({
+                'e_type': ent.label_,
+                'e_value': ent.text
+            })
+
+        return result
+
+#Ner().generate_training_data()
+#Ner().train()
 
 
-Ner().annotated_data()
+q = 'Vendo bicicleta Orbea de gravel'
+r = Ner().predict(query=q)
+print(r)

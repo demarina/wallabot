@@ -1,361 +1,521 @@
 [
     {
-        "text": "Bicicleta cross country Triban alma",
+        "text": "Bicicleta backpaking Orbea terra",
         "entities": [
             [
                 10,
-                23,
-                "cross country"
+                20,
+                "ent.discipline"
             ],
             [
-                24,
-                30,
-                "Triban"
-            ],
-            [
-                31,
-                35,
-                "alma"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta montaña Specialized",
-        "entities": [
-            [
-                10,
-                17,
-                "montaña"
-            ],
-            [
-                18,
-                29,
-                "Specialized"
-            ]
-        ]
-    },
-    {
-        "text": "Bici gravel Kona",
-        "entities": [
-            [
-                5,
-                11,
-                "gravel"
-            ],
-            [
-                12,
-                16,
-                "Kona"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta fixie Van Rysel del año 2025",
-        "entities": [
-            [
-                10,
-                15,
-                "fixie"
-            ],
-            [
-                16,
-                25,
-                "Van Rysel"
-            ],
-            [
-                34,
-                38,
-                "2025"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta mountain bike Triban del 2024",
-        "entities": [
-            [
-                10,
-                23,
-                "mountain bike"
-            ],
-            [
-                24,
-                30,
-                "Triban"
-            ],
-            [
-                35,
-                39,
-                "2024"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta mountain bike Bianchi talla L con tija de carbono",
-        "entities": [
-            [
-                10,
-                23,
-                "mountain bike"
-            ],
-            [
-                24,
-                31,
-                "Bianchi"
-            ],
-            [
-                38,
-                39,
-                "L"
-            ],
-            [
-                52,
-                59,
-                "carbono"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta de fixie cuadro de aluminio y horquilla de aluminio",
-        "entities": [
-            [
-                13,
-                18,
-                "fixie"
-            ],
-            [
-                29,
-                37,
-                "aluminio"
-            ],
-            [
-                53,
-                61,
-                "aluminio"
-            ]
-        ]
-    },
-    {
-        "text": "Cuadro de carbono en talla S",
-        "entities": [
-            [
-                10,
-                17,
-                "carbono"
+                21,
+                26,
+                "ent.brand"
             ],
             [
                 27,
-                28,
-                "S"
+                32,
+                "ent.model"
             ]
         ]
     },
     {
-        "text": "Bici de carretera. Talla M (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
+        "text": "Bicicleta mountain bike Van Rysel",
         "entities": [
             [
-                8,
-                17,
-                "carretera"
-            ],
-            [
-                25,
-                26,
-                "M"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta de backpaking/carretera Trek del año 2016",
-        "entities": [
-            [
-                13,
+                10,
                 23,
-                "backpaking"
+                "ent.discipline"
             ],
             [
                 24,
                 33,
-                "carretera"
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "Bici cross country Canyon",
+        "entities": [
+            [
+                5,
+                18,
+                "ent.discipline"
             ],
             [
+                19,
+                25,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta montaña Cannondale del año 2017",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.discipline"
+            ],
+            [
+                18,
+                28,
+                "ent.brand"
+            ],
+            [
+                37,
+                41,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "Bici fixie Cube del año 2023",
+        "entities": [
+            [
+                5,
+                10,
+                "ent.discipline"
+            ],
+            [
+                11,
+                15,
+                "ent.brand"
+            ],
+            [
+                24,
+                28,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta mtb Cube del 2020",
+        "entities": [
+            [
+                10,
+                13,
+                "ent.discipline"
+            ],
+            [
+                14,
+                18,
+                "ent.brand"
+            ],
+            [
+                23,
+                27,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta cx Orbea talla XL con tija de acero",
+        "entities": [
+            [
+                10,
+                12,
+                "ent.discipline"
+            ],
+            [
+                13,
+                18,
+                "ent.brand"
+            ],
+            [
+                25,
+                27,
+                "ent.size"
+            ],
+            [
+                40,
+                45,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de cx cuadro de aluminio y horquilla de carbono",
+        "entities": [
+            [
+                13,
+                15,
+                "ent.discipline"
+            ],
+            [
+                26,
                 34,
+                "ent.material"
+            ],
+            [
+                50,
+                57,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "Cuadro de aluminio en talla M",
+        "entities": [
+            [
+                10,
+                18,
+                "ent.material"
+            ],
+            [
+                28,
+                29,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "Bici de mountain bike. Talla XL (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                21,
+                "ent.discipline"
+            ],
+            [
+                29,
+                31,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de cross country/fixie Orbea del año 2017",
+        "entities": [
+            [
+                13,
+                26,
+                "ent.discipline"
+            ],
+            [
+                27,
+                32,
+                "ent.discipline"
+            ],
+            [
+                33,
                 38,
-                "Trek"
+                "ent.brand"
             ],
             [
                 47,
                 51,
-                "2016"
+                "ent.year"
             ]
         ]
     },
     {
-        "text": "Bicicleta nueva Kona de cx por 550 €",
+        "text": "Bicicleta nueva Scott de carretera por 700 €",
         "entities": [
             [
                 16,
-                20,
-                "Kona"
+                21,
+                "ent.brand"
             ],
             [
-                24,
-                26,
-                "cx"
-            ],
-            [
-                31,
+                25,
                 34,
-                "550"
-            ]
-        ]
-    },
-    {
-        "text": "Bici en buen estado Cervelo de fixie por 600 €, del año 2021",
-        "entities": [
-            [
-                20,
-                27,
-                "Cervelo"
-            ],
-            [
-                31,
-                36,
-                "fixie"
-            ],
-            [
-                41,
-                44,
-                "600"
-            ],
-            [
-                56,
-                60,
-                "2021"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta de cross country Pinarello con cuadro blanco y negro. Todo Shimano Ultegra plato (50-34) casette (11-30)",
-        "entities": [
-            [
-                13,
-                26,
-                "cross country"
-            ],
-            [
-                27,
-                36,
-                "Pinarello"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta de mountain bike Specialized radius en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
-        "entities": [
-            [
-                13,
-                26,
-                "mountain bike"
-            ],
-            [
-                27,
-                38,
-                "Specialized"
+                "ent.discipline"
             ],
             [
                 39,
-                45,
-                "radius"
+                42,
+                "ent.price"
             ]
         ]
     },
     {
-        "text": "Bicicleta de mountain bike Kona talla S válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. Ideal para explorar caminos y senderos",
+        "text": "Bici en buen estado Giant de cx por 580 €, del año 2023",
         "entities": [
             [
-                13,
-                26,
-                "mountain bike"
+                20,
+                25,
+                "ent.brand"
             ],
             [
-                27,
+                29,
                 31,
-                "Kona"
+                "ent.discipline"
             ],
             [
-                38,
+                36,
                 39,
-                "S"
+                "ent.price"
+            ],
+            [
+                51,
+                55,
+                "ent.year"
             ]
         ]
     },
     {
-        "text": "Vendo Specialized radius talla XXL/XXL. Muy pocas salidas. Bici fantástica y ligera para backpaking o fixie",
+        "text": "Bici Megamo practicamente nueva de mtb por 750 €, del año 2021",
         "entities": [
             [
-                6,
-                17,
-                "Specialized"
-            ],
-            [
-                18,
-                24,
-                "radius"
-            ],
-            [
-                31,
-                34,
-                "XXL"
+                5,
+                11,
+                "ent.brand"
             ],
             [
                 35,
                 38,
-                "XXL"
+                "ent.discipline"
             ],
             [
-                89,
-                99,
-                "backpaking"
+                43,
+                46,
+                "ent.price"
             ],
             [
-                102,
-                107,
-                "fixie"
+                58,
+                62,
+                "ent.year"
             ]
         ]
     },
     {
-        "text": "Bicicleta Mendiz de fixie en color gris claro. La vendo por 580 €",
+        "text": "Bicicleta de backpaking Canyon con cuadro blanco y negro. Todo Shimano Ultegra plato (50-34) casette (11-30)",
+        "entities": [
+            [
+                13,
+                23,
+                "ent.discipline"
+            ],
+            [
+                24,
+                30,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de fixie Cannondale alma en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
+        "entities": [
+            [
+                13,
+                18,
+                "ent.discipline"
+            ],
+            [
+                19,
+                29,
+                "ent.brand"
+            ],
+            [
+                30,
+                34,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de mtb Orbea talla L válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. Ideal para explorar caminos y senderos",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                22,
+                "ent.brand"
+            ],
+            [
+                29,
+                30,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "Vendo Trek grizl talla L/XXL. Muy pocas salidas. Bici fantástica y ligera para fixie o montaña",
+        "entities": [
+            [
+                6,
+                10,
+                "ent.brand"
+            ],
+            [
+                11,
+                16,
+                "ent.model"
+            ],
+            [
+                23,
+                24,
+                "ent.size"
+            ],
+            [
+                25,
+                28,
+                "ent.size"
+            ],
+            [
+                79,
+                84,
+                "ent.discipline"
+            ],
+            [
+                87,
+                94,
+                "ent.discipline"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta Megamo de backpaking en color gris claro. La vendo por 700 €",
         "entities": [
             [
                 10,
                 16,
-                "Mendiz"
+                "ent.brand"
             ],
             [
                 20,
-                25,
-                "fixie"
+                30,
+                "ent.discipline"
             ],
             [
-                60,
-                63,
-                "580"
+                65,
+                68,
+                "ent.price"
             ]
         ]
     },
     {
-        "text": "Bici de backpaking. Talla M (aprox 188-199). Poco uso, en perfecto estado de funcionamiento.",
+        "text": "Bici de mountain bike. Talla S (aprox 188-199). Poco uso, en perfecto estado de funcionamiento",
         "entities": [
             [
                 8,
-                18,
-                "backpaking"
+                21,
+                "ent.discipline"
+            ],
+            [
+                29,
+                30,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta Giant revolt del año 2025",
+        "entities": [
+            [
+                10,
+                15,
+                "ent.brand"
+            ],
+            [
+                16,
+                22,
+                "ent.model"
+            ],
+            [
+                31,
+                35,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "Se vende bicicleta Megamo rove de finales de abril 2021, con su factura y sus papeles, talla L, ruedas maxxis de 29 con kit tubelees",
+        "entities": [
+            [
+                19,
+                25,
+                "ent.brand"
             ],
             [
                 26,
+                30,
+                "ent.model"
+            ],
+            [
+                51,
+                55,
+                "ent.year"
+            ],
+            [
+                93,
+                94,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de montaña Canyon alma en estupendas condiciones. Talla XL. Con poquísimo uso (puños de serie)",
+        "entities": [
+            [
+                21,
                 27,
-                "M"
+                "ent.brand"
+            ],
+            [
+                28,
+                32,
+                "ent.model"
+            ],
+            [
+                66,
+                68,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de mountain bike Cube nuroad en talla S (54) para 1.70-1.80 de altura. Cuadro de acero ligero y aerodinámico",
+        "entities": [
+            [
+                13,
+                26,
+                "ent.discipline"
+            ],
+            [
+                27,
+                31,
+                "ent.brand"
+            ],
+            [
+                32,
+                38,
+                "ent.model"
+            ],
+            [
+                48,
+                49,
+                "ent.size"
+            ],
+            [
+                91,
+                96,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de cross country Giant talla L válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                26,
+                "ent.discipline"
+            ],
+            [
+                27,
+                32,
+                "ent.brand"
+            ],
+            [
+                39,
+                40,
+                "ent.size"
             ]
         ]
     }

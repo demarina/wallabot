@@ -4,36 +4,18 @@
     "Canyon",
     "Trek",
     "Van Rysel",
-    "Triban",
-    "Specialized",
-    "Monster",
     "Cube",
     "Megamo",
-    "Specialized",
     "Giant",
-    "Kona",
     "Scott",
-    "Specialized",
-    "Bianchi",
-    "Sworks",
-    "Cannondale",
-    "Pinarello",
-    "Cervelo",
-    "Mondraker",
-    "Bh",
-    "Btwin",
-    "Mendiz"
+    "Cannondale"
   ],
   "ent.discipline": [
     "gravel",
     "mtb",
     "carretera",
     "mountain bike",
-    "montaña",
-    "fixie",
-    "backpaking",
-    "cx",
-    "cross country"
+    "montaña"
   ],
   "ent.model": [
     "alma",
@@ -81,6 +63,7 @@
   "ent.models": {
     "Orbea": ["alma", "oiz", "terra"],
     "Cube": ["nuroad"],
-    "Giant": ["revolt"]
+    "Giant": ["revolt"],
+    "Scott": ["genius 930", "aspect", "scale"]
   }
 }
