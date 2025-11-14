@@ -8,5 +8,13 @@
   "Bicicleta de [ent.discipline] cuadro de [ent.material] y horquilla de [ent.material]",
   "Cuadro de [ent.material] en talla [ent.size]",
   "Bici de [ent.discipline]. Talla [ent.size] (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
-  "Bicicleta de [ent.discipline]/[ent.discipline] [ent.brand] del año [ent.year]"
+  "Bicicleta de [ent.discipline]/[ent.discipline] [ent.brand] del año [ent.year]",
+  "Bicicleta nueva [ent.brand] de [ent.discipline] por [ent.price] €",
+  "Bici en buen estado [ent.brand] de [ent.discipline] por [ent.price] €, del año [ent.year]",
+  "Bicicleta de [ent.discipline] [ent.brand] con cuadro blanco y negro. Todo Shimano Ultegra plato (50-34) casette (11-30)",
+  "Bicicleta de [ent.discipline] [ent.brand] [ent.model] en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
+  "Bicicleta de [ent.discipline] [ent.brand] talla [ent.size] válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. Ideal para explorar caminos y senderos",
+  "Vendo [ent.brand] [ent.model] talla [ent.size]/[ent.size]. Muy pocas salidas. Bici fantástica y ligera para [ent.discipline] o [ent.discipline]",
+  "Bicicleta [ent.brand] de [ent.discipline] en color gris claro. La vendo por [ent.price] €",
+  "Bici de [ent.discipline]. Talla [ent.size] (aprox 188-199). Poco uso, en perfecto estado de funcionamiento."
 ]
