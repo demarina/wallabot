@@ -83,19 +83,15 @@ class Ner:
         print(f'File "{training_data_file_path}" created.')
 
     def train(self) -> None:
-        #nlp = spacy.load(self.MODEL_SPACY)
         training_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.TRAINING_SET_FILE_NAME)
 
         with open(training_data_file_path, 'r') as f:
             training_data = json.load(f)
 
-        nlp = spacy.blank("es")
-        nlp.add_pipe("lemmatizer", config={"mode": "rule"})
+        nlp = spacy.blank('es')
+        nlp.add_pipe('lemmatizer', config={'mode': 'rule'})
 
-        #lookups = spacy_lookups_data.load_data("es")
-        #nlp.get_pipe("lemmatizer").initialize(lambda: lookups)
-
-        ner = nlp.add_pipe("ner")
+        ner = nlp.add_pipe('ner')
 
         for item in training_data:
             for ent in item['entities']:
@@ -106,16 +102,16 @@ class Ner:
 
         print('Start training')
 
-        for epoch in range(n_iter):
+        for _ in range(n_iter):
             random.shuffle(training_data)
             losses = {}
 
             for entry in training_data:
-                text = entry["text"]
-                ents = entry["entities"]
+                text = entry['text']
+                ents = entry['entities']
                 doc = nlp.make_doc(text)
 
-                example = Example.from_dict(doc, {"entities": ents})
+                example = Example.from_dict(doc, {'entities': ents})
 
                 nlp.update([example], losses=losses, drop=0.2, sgd=optimizer)
 
