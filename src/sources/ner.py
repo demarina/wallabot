@@ -20,14 +20,14 @@ class Ner:
         if os.path.exists(entities_file):
             entities = json.load(open(entities_file))
         else:
-            print(f'Entities file {entities_file} not found.')
+            print(f'Entities file "{entities_file}" not found.')
             raise
 
         ner_phrases_file = os.path.join(os.path.dirname(__file__), '..', 'data', self.NER_PHRASES_FILE_NAME)
         if os.path.exists(ner_phrases_file):
             phrases = json.load(open(ner_phrases_file))
         else:
-            print(f'Ner phrases file {ner_phrases_file} not found.')
+            print(f'Ner phrases file "{ner_phrases_file}" not found.')
             raise
 
         annotated_data = []
@@ -38,12 +38,11 @@ class Ner:
             for m in matches:
                 e_type = m.group(0)
                 start = int(m.start(0))
-                end = int(m.end(0))
 
                 e_type_key = e_type.replace('[', '').replace(']', '')
                 entity_value = random.choice(entities[e_type_key])
 
-                entities_info.append([start, end, entity_value])
+                entities_info.append([start, (start + len(entity_value)), entity_value])
                 new_phrase = new_phrase.replace(e_type, entity_value, 1)
 
             annotated_data.append(
@@ -57,7 +56,7 @@ class Ner:
         with open(annotated_data_file_path, 'w') as f:
             f.write(json.dumps(annotated_data, indent=4))
 
-        print(f'File {annotated_data_file_path} created.')
+        print(f'File "{annotated_data_file_path}" created.')
 
 
 Ner().annotated_data()
