@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Bicicleta cross country Triban alma",
+        "entities": [
+            [
+                10,
+                23,
+                "cross country"
+            ],
+            [
+                24,
+                30,
+                "Triban"
+            ],
+            [
+                31,
+                35,
+                "alma"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta montaña Specialized",
+        "entities": [
+            [
+                10,
+                17,
+                "montaña"
+            ],
+            [
+                18,
+                29,
+                "Specialized"
+            ]
+        ]
+    },
+    {
+        "text": "Bici gravel Kona",
+        "entities": [
+            [
+                5,
+                11,
+                "gravel"
+            ],
+            [
+                12,
+                16,
+                "Kona"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta fixie Van Rysel del año 2025",
+        "entities": [
+            [
+                10,
+                15,
+                "fixie"
+            ],
+            [
+                16,
+                25,
+                "Van Rysel"
+            ],
+            [
+                34,
+                38,
+                "2025"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta mountain bike Triban del 2024",
+        "entities": [
+            [
+                10,
+                23,
+                "mountain bike"
+            ],
+            [
+                24,
+                30,
+                "Triban"
+            ],
+            [
+                35,
+                39,
+                "2024"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta mountain bike Bianchi talla L con tija de carbono",
+        "entities": [
+            [
+                10,
+                23,
+                "mountain bike"
+            ],
+            [
+                24,
+                31,
+                "Bianchi"
+            ],
+            [
+                38,
+                39,
+                "L"
+            ],
+            [
+                52,
+                59,
+                "carbono"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de fixie cuadro de aluminio y horquilla de aluminio",
+        "entities": [
+            [
+                13,
+                18,
+                "fixie"
+            ],
+            [
+                29,
+                37,
+                "aluminio"
+            ],
+            [
+                53,
+                61,
+                "aluminio"
+            ]
+        ]
+    },
+    {
+        "text": "Cuadro de carbono en talla S",
+        "entities": [
+            [
+                10,
+                17,
+                "carbono"
+            ],
+            [
+                27,
+                28,
+                "S"
+            ]
+        ]
+    },
+    {
+        "text": "Bici de carretera. Talla M (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                17,
+                "carretera"
+            ],
+            [
+                25,
+                26,
+                "M"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de backpaking/carretera Trek del año 2016",
+        "entities": [
+            [
+                13,
+                23,
+                "backpaking"
+            ],
+            [
+                24,
+                33,
+                "carretera"
+            ],
+            [
+                34,
+                38,
+                "Trek"
+            ],
+            [
+                47,
+                51,
+                "2016"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta nueva Kona de cx por 550 €",
+        "entities": [
+            [
+                16,
+                20,
+                "Kona"
+            ],
+            [
+                24,
+                26,
+                "cx"
+            ],
+            [
+                31,
+                34,
+                "550"
+            ]
+        ]
+    },
+    {
+        "text": "Bici en buen estado Cervelo de fixie por 600 €, del año 2021",
+        "entities": [
+            [
+                20,
+                27,
+                "Cervelo"
+            ],
+            [
+                31,
+                36,
+                "fixie"
+            ],
+            [
+                41,
+                44,
+                "600"
+            ],
+            [
+                56,
+                60,
+                "2021"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de cross country Pinarello con cuadro blanco y negro. Todo Shimano Ultegra plato (50-34) casette (11-30)",
+        "entities": [
+            [
+                13,
+                26,
+                "cross country"
+            ],
+            [
+                27,
+                36,
+                "Pinarello"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de mountain bike Specialized radius en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
+        "entities": [
+            [
+                13,
+                26,
+                "mountain bike"
+            ],
+            [
+                27,
+                38,
+                "Specialized"
+            ],
+            [
+                39,
+                45,
+                "radius"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de mountain bike Kona talla S válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. Ideal para explorar caminos y senderos",
+        "entities": [
+            [
+                13,
+                26,
+                "mountain bike"
+            ],
+            [
+                27,
+                31,
+                "Kona"
+            ],
+            [
+                38,
+                39,
+                "S"
+            ]
+        ]
+    },
+    {
+        "text": "Vendo Specialized radius talla XXL/XXL. Muy pocas salidas. Bici fantástica y ligera para backpaking o fixie",
+        "entities": [
+            [
+                6,
+                17,
+                "Specialized"
+            ],
+            [
+                18,
+                24,
+                "radius"
+            ],
+            [
+                31,
+                34,
+                "XXL"
+            ],
+            [
+                35,
+                38,
+                "XXL"
+            ],
+            [
+                89,
+                99,
+                "backpaking"
+            ],
+            [
+                102,
+                107,
+                "fixie"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta Mendiz de fixie en color gris claro. La vendo por 580 €",
+        "entities": [
+            [
+                10,
+                16,
+                "Mendiz"
+            ],
+            [
+                20,
+                25,
+                "fixie"
+            ],
+            [
+                60,
+                63,
+                "580"
+            ]
+        ]
+    },
+    {
+        "text": "Bici de backpaking. Talla M (aprox 188-199). Poco uso, en perfecto estado de funcionamiento.",
+        "entities": [
+            [
+                8,
+                18,
+                "backpaking"
+            ],
+            [
+                26,
+                27,
+                "M"
+            ]
+        ]
+    }
+]

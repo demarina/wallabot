@@ -11,7 +11,7 @@ class Ner:
     ENT_BRAND = 'ent.brand'
     ENTITIES_FILE_NAME = 'entities.json'
     NER_PHRASES_FILE_NAME = 'ner_phrases.json'
-    ANNOTATIONS_FILE_NAME = 'annotations.json'
+    TRAINING_SET_FILE_NAME = 'training_set.json'
 
     REGEX_PATTERN = r'\[ent\.[^\]]+\]'
 
@@ -66,7 +66,7 @@ class Ner:
                 }
             )
 
-        annotated_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.ANNOTATIONS_FILE_NAME)
+        annotated_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.TRAINING_SET_FILE_NAME)
         with open(annotated_data_file_path, 'w', encoding='utf-8') as f:
             f.write(json.dumps(annotated_data, indent=4, ensure_ascii=False))
 
