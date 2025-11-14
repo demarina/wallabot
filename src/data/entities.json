@@ -1,14 +1,14 @@
 {
   "ent.brand": [
-    "Orbea",
-    "Canyon",
-    "Trek",
-    "Van Rysel",
-    "Cube",
-    "Megamo",
-    "Giant",
-    "Scott",
-    "Cannondale"
+    "orbea",
+    "canyon",
+    "trek",
+    "van Rysel",
+    "cube",
+    "megamo",
+    "giant",
+    "scott",
+    "cannondale"
   ],
   "ent.discipline": [
     "gravel",
@@ -26,11 +26,11 @@
     "radius"
   ],
   "ent.size": [
-    "S",
-    "M",
-    "L",
-    "XL",
-    "XXL"
+    "s",
+    "m",
+    "l",
+    "xl",
+    "xxl"
   ],
   "ent.year": [
     "2016",
@@ -61,9 +61,9 @@
     "800"
   ],
   "ent.models": {
-    "Orbea": ["alma", "oiz", "terra"],
-    "Cube": ["nuroad"],
-    "Giant": ["revolt"],
-    "Scott": ["genius 930", "aspect", "scale"]
+    "orbea": ["alma", "oiz", "terra"],
+    "cube": ["nuroad"],
+    "giant": ["revolt"],
+    "scott": ["genius 930", "aspect", "scale"]
   }
 }

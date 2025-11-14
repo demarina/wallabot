@@ -1,96 +1,6 @@
 [
     {
-        "text": "Bicicleta backpaking Orbea terra",
-        "entities": [
-            [
-                10,
-                20,
-                "ent.discipline"
-            ],
-            [
-                21,
-                26,
-                "ent.brand"
-            ],
-            [
-                27,
-                32,
-                "ent.model"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta mountain bike Van Rysel",
-        "entities": [
-            [
-                10,
-                23,
-                "ent.discipline"
-            ],
-            [
-                24,
-                33,
-                "ent.brand"
-            ]
-        ]
-    },
-    {
-        "text": "Bici cross country Canyon",
-        "entities": [
-            [
-                5,
-                18,
-                "ent.discipline"
-            ],
-            [
-                19,
-                25,
-                "ent.brand"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta montaña Cannondale del año 2017",
-        "entities": [
-            [
-                10,
-                17,
-                "ent.discipline"
-            ],
-            [
-                18,
-                28,
-                "ent.brand"
-            ],
-            [
-                37,
-                41,
-                "ent.year"
-            ]
-        ]
-    },
-    {
-        "text": "Bici fixie Cube del año 2023",
-        "entities": [
-            [
-                5,
-                10,
-                "ent.discipline"
-            ],
-            [
-                11,
-                15,
-                "ent.brand"
-            ],
-            [
-                24,
-                28,
-                "ent.year"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta mtb Cube del 2020",
+        "text": "bicicleta mtb megamo rove",
         "entities": [
             [
                 10,
@@ -99,63 +9,178 @@
             ],
             [
                 14,
-                18,
+                20,
                 "ent.brand"
             ],
             [
-                23,
-                27,
+                21,
+                25,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta carretera orbea",
+        "entities": [
+            [
+                10,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                25,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bici gravel giant",
+        "entities": [
+            [
+                5,
+                11,
+                "ent.discipline"
+            ],
+            [
+                12,
+                17,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta gravel cube del año 2025",
+        "entities": [
+            [
+                10,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                21,
+                "ent.brand"
+            ],
+            [
+                30,
+                34,
                 "ent.year"
             ]
         ]
     },
     {
-        "text": "Bicicleta cx Orbea talla XL con tija de acero",
+        "text": "bici gravel scott del año 2018",
         "entities": [
             [
-                10,
-                12,
+                5,
+                11,
                 "ent.discipline"
             ],
             [
-                13,
-                18,
+                12,
+                17,
                 "ent.brand"
             ],
             [
-                25,
-                27,
-                "ent.size"
-            ],
-            [
-                40,
-                45,
-                "ent.material"
+                26,
+                30,
+                "ent.year"
             ]
         ]
     },
     {
-        "text": "Bicicleta de cx cuadro de aluminio y horquilla de carbono",
+        "text": "bicicleta carretera scott del 2017",
         "entities": [
             [
-                13,
-                15,
+                10,
+                19,
                 "ent.discipline"
             ],
             [
-                26,
-                34,
-                "ent.material"
+                20,
+                25,
+                "ent.brand"
             ],
             [
-                50,
-                57,
+                30,
+                34,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta gravel canyon talla xl con tija de aluminio",
+        "entities": [
+            [
+                10,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                23,
+                "ent.brand"
+            ],
+            [
+                30,
+                32,
+                "ent.size"
+            ],
+            [
+                45,
+                53,
                 "ent.material"
             ]
         ]
     },
     {
-        "text": "Cuadro de aluminio en talla M",
+        "text": "bicicleta mountain bike canyon de tamaño xl con tija de carbono",
+        "entities": [
+            [
+                10,
+                23,
+                "ent.discipline"
+            ],
+            [
+                24,
+                30,
+                "ent.brand"
+            ],
+            [
+                41,
+                43,
+                "ent.size"
+            ],
+            [
+                56,
+                63,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel cuadro de carbono y horquilla de carbono",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                30,
+                37,
+                "ent.material"
+            ],
+            [
+                53,
+                60,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "cuadro de aluminio en talla xxl",
         "entities": [
             [
                 10,
@@ -164,73 +189,88 @@
             ],
             [
                 28,
-                29,
-                "ent.size"
-            ]
-        ]
-    },
-    {
-        "text": "Bici de mountain bike. Talla XL (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
-        "entities": [
-            [
-                8,
-                21,
-                "ent.discipline"
-            ],
-            [
-                29,
                 31,
                 "ent.size"
             ]
         ]
     },
     {
-        "text": "Bicicleta de cross country/fixie Orbea del año 2017",
+        "text": "cuadro de carbono tamaño l",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.material"
+            ],
+            [
+                25,
+                26,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bici de montaña. talla xl (aprox 188-199). poco uso. perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                15,
+                "ent.discipline"
+            ],
+            [
+                23,
+                25,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de carretera/gravel giant del año 2017",
         "entities": [
             [
                 13,
-                26,
+                22,
                 "ent.discipline"
             ],
             [
-                27,
-                32,
+                23,
+                29,
                 "ent.discipline"
             ],
             [
-                33,
-                38,
+                30,
+                35,
                 "ent.brand"
             ],
             [
-                47,
-                51,
+                44,
+                48,
                 "ent.year"
             ]
         ]
     },
     {
-        "text": "Bicicleta nueva Scott de carretera por 700 €",
+        "text": "bicicleta nueva canyon de mtb por 500 €",
         "entities": [
             [
                 16,
-                21,
+                22,
                 "ent.brand"
             ],
             [
-                25,
-                34,
+                26,
+                29,
                 "ent.discipline"
             ],
             [
-                39,
-                42,
+                34,
+                37,
                 "ent.price"
             ]
         ]
     },
     {
-        "text": "Bici en buen estado Giant de cx por 580 €, del año 2023",
+        "text": "bici en buen estado giant de montaña por 500 €, del año 2020",
         "entities": [
             [
                 20,
@@ -239,83 +279,83 @@
             ],
             [
                 29,
-                31,
+                36,
                 "ent.discipline"
             ],
             [
-                36,
-                39,
+                41,
+                44,
                 "ent.price"
             ],
             [
-                51,
-                55,
+                56,
+                60,
                 "ent.year"
             ]
         ]
     },
     {
-        "text": "Bici Megamo practicamente nueva de mtb por 750 €, del año 2021",
+        "text": "bici cannondale practicamente nueva de carretera por 800 €, del año 2022",
         "entities": [
             [
                 5,
-                11,
+                15,
                 "ent.brand"
             ],
             [
-                35,
-                38,
+                39,
+                48,
                 "ent.discipline"
             ],
             [
-                43,
-                46,
+                53,
+                56,
                 "ent.price"
             ],
             [
-                58,
-                62,
+                68,
+                72,
                 "ent.year"
             ]
         ]
     },
     {
-        "text": "Bicicleta de backpaking Canyon con cuadro blanco y negro. Todo Shimano Ultegra plato (50-34) casette (11-30)",
+        "text": "bicicleta de montaña trek con cuadro blanco y negro. todo shimano ultegra plato (50-34) casette (11-30)",
         "entities": [
             [
                 13,
-                23,
+                20,
                 "ent.discipline"
             ],
             [
-                24,
-                30,
+                21,
+                25,
                 "ent.brand"
             ]
         ]
     },
     {
-        "text": "Bicicleta de fixie Cannondale alma en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
+        "text": "bicicleta de mountain bike cannondale rove en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
         "entities": [
             [
                 13,
-                18,
+                26,
                 "ent.discipline"
             ],
             [
-                19,
-                29,
+                27,
+                37,
                 "ent.brand"
             ],
             [
-                30,
-                34,
+                38,
+                42,
                 "ent.model"
             ]
         ]
     },
     {
-        "text": "Bicicleta de mtb Orbea talla L válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. Ideal para explorar caminos y senderos",
+        "text": "bicicleta de mtb canyon talla l válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. ideal para explorar caminos y senderos",
         "entities": [
             [
                 13,
@@ -324,116 +364,116 @@
             ],
             [
                 17,
-                22,
+                23,
                 "ent.brand"
             ],
             [
-                29,
                 30,
+                31,
                 "ent.size"
             ]
         ]
     },
     {
-        "text": "Vendo Trek grizl talla L/XXL. Muy pocas salidas. Bici fantástica y ligera para fixie o montaña",
+        "text": "vendo van rysel alma talla s/l. muy pocas salidas. bici fantástica y ligera para montaña o gravel",
         "entities": [
             [
                 6,
-                10,
-                "ent.brand"
-            ],
-            [
-                11,
-                16,
-                "ent.model"
-            ],
-            [
-                23,
-                24,
-                "ent.size"
-            ],
-            [
-                25,
-                28,
-                "ent.size"
-            ],
-            [
-                79,
-                84,
-                "ent.discipline"
-            ],
-            [
-                87,
-                94,
-                "ent.discipline"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta Megamo de backpaking en color gris claro. La vendo por 700 €",
-        "entities": [
-            [
-                10,
-                16,
-                "ent.brand"
-            ],
-            [
-                20,
-                30,
-                "ent.discipline"
-            ],
-            [
-                65,
-                68,
-                "ent.price"
-            ]
-        ]
-    },
-    {
-        "text": "Bici de mountain bike. Talla S (aprox 188-199). Poco uso, en perfecto estado de funcionamiento",
-        "entities": [
-            [
-                8,
-                21,
-                "ent.discipline"
-            ],
-            [
-                29,
-                30,
-                "ent.size"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta Giant revolt del año 2025",
-        "entities": [
-            [
-                10,
                 15,
                 "ent.brand"
             ],
             [
                 16,
-                22,
+                20,
                 "ent.model"
             ],
             [
-                31,
-                35,
+                27,
+                28,
+                "ent.size"
+            ],
+            [
+                29,
+                30,
+                "ent.size"
+            ],
+            [
+                81,
+                88,
+                "ent.discipline"
+            ],
+            [
+                91,
+                97,
+                "ent.discipline"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta van rysel de mountain bike en color gris claro. la vendo por 800 €",
+        "entities": [
+            [
+                10,
+                19,
+                "ent.brand"
+            ],
+            [
+                23,
+                36,
+                "ent.discipline"
+            ],
+            [
+                71,
+                74,
+                "ent.price"
+            ]
+        ]
+    },
+    {
+        "text": "bici de montaña. talla l (aprox 188-199). poco uso, en perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                15,
+                "ent.discipline"
+            ],
+            [
+                23,
+                24,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta cube nuroad del año 2016",
+        "entities": [
+            [
+                10,
+                14,
+                "ent.brand"
+            ],
+            [
+                15,
+                21,
+                "ent.model"
+            ],
+            [
+                30,
+                34,
                 "ent.year"
             ]
         ]
     },
     {
-        "text": "Se vende bicicleta Megamo rove de finales de abril 2021, con su factura y sus papeles, talla L, ruedas maxxis de 29 con kit tubelees",
+        "text": "se vende bicicleta cube nuroad de finales de abril 2023, con su factura y sus papeles, talla s, ruedas maxxis de 29 con kit tubelees",
         "entities": [
             [
                 19,
-                25,
+                23,
                 "ent.brand"
             ],
             [
-                26,
+                24,
                 30,
                 "ent.model"
             ],
@@ -450,7 +490,587 @@
         ]
     },
     {
-        "text": "Bicicleta de montaña Canyon alma en estupendas condiciones. Talla XL. Con poquísimo uso (puños de serie)",
+        "text": "bicicleta de montaña giant revolt en estupendas condiciones. talla m. con poquísimo uso (puños de serie)",
+        "entities": [
+            [
+                21,
+                26,
+                "ent.brand"
+            ],
+            [
+                27,
+                33,
+                "ent.model"
+            ],
+            [
+                67,
+                68,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de carretera scott scale en talla l (54) para 1.70-1.80 de altura. cuadro de acero ligero y aerodinámico",
+        "entities": [
+            [
+                13,
+                22,
+                "ent.discipline"
+            ],
+            [
+                23,
+                28,
+                "ent.brand"
+            ],
+            [
+                29,
+                34,
+                "ent.model"
+            ],
+            [
+                44,
+                45,
+                "ent.size"
+            ],
+            [
+                87,
+                92,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel scott talla m válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                25,
+                "ent.brand"
+            ],
+            [
+                32,
+                33,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mtb orbea tamaño l válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                22,
+                "ent.brand"
+            ],
+            [
+                30,
+                31,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta gravel trek alma",
+        "entities": [
+            [
+                10,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                21,
+                "ent.brand"
+            ],
+            [
+                22,
+                26,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta montaña giant",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.discipline"
+            ],
+            [
+                18,
+                23,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bici montaña cube",
+        "entities": [
+            [
+                5,
+                12,
+                "ent.discipline"
+            ],
+            [
+                13,
+                17,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mountain bike canyon del año 2022",
+        "entities": [
+            [
+                10,
+                23,
+                "ent.discipline"
+            ],
+            [
+                24,
+                30,
+                "ent.brand"
+            ],
+            [
+                39,
+                43,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bici montaña scott del año 2022",
+        "entities": [
+            [
+                5,
+                12,
+                "ent.discipline"
+            ],
+            [
+                13,
+                18,
+                "ent.brand"
+            ],
+            [
+                27,
+                31,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mtb scott del 2016",
+        "entities": [
+            [
+                10,
+                13,
+                "ent.discipline"
+            ],
+            [
+                14,
+                19,
+                "ent.brand"
+            ],
+            [
+                24,
+                28,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta montaña cannondale talla xl con tija de aluminio",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.discipline"
+            ],
+            [
+                18,
+                28,
+                "ent.brand"
+            ],
+            [
+                35,
+                37,
+                "ent.size"
+            ],
+            [
+                50,
+                58,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mtb cannondale de tamaño xl con tija de acero",
+        "entities": [
+            [
+                10,
+                13,
+                "ent.discipline"
+            ],
+            [
+                14,
+                24,
+                "ent.brand"
+            ],
+            [
+                35,
+                37,
+                "ent.size"
+            ],
+            [
+                50,
+                55,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel cuadro de acero y horquilla de acero",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                30,
+                35,
+                "ent.material"
+            ],
+            [
+                51,
+                56,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "cuadro de acero en talla xxl",
+        "entities": [
+            [
+                10,
+                15,
+                "ent.material"
+            ],
+            [
+                25,
+                28,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "cuadro de carbono tamaño s",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.material"
+            ],
+            [
+                25,
+                26,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bici de mountain bike. talla s (aprox 188-199). poco uso. perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                21,
+                "ent.discipline"
+            ],
+            [
+                29,
+                30,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mtb/mountain bike giant del año 2022",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                30,
+                "ent.discipline"
+            ],
+            [
+                31,
+                36,
+                "ent.brand"
+            ],
+            [
+                45,
+                49,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta nueva cube de carretera por 580 €",
+        "entities": [
+            [
+                16,
+                20,
+                "ent.brand"
+            ],
+            [
+                24,
+                33,
+                "ent.discipline"
+            ],
+            [
+                38,
+                41,
+                "ent.price"
+            ]
+        ]
+    },
+    {
+        "text": "bici en buen estado giant de carretera por 700 €, del año 2022",
+        "entities": [
+            [
+                20,
+                25,
+                "ent.brand"
+            ],
+            [
+                29,
+                38,
+                "ent.discipline"
+            ],
+            [
+                43,
+                46,
+                "ent.price"
+            ],
+            [
+                58,
+                62,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bici trek practicamente nueva de mtb por 600 €, del año 2016",
+        "entities": [
+            [
+                5,
+                9,
+                "ent.brand"
+            ],
+            [
+                33,
+                36,
+                "ent.discipline"
+            ],
+            [
+                41,
+                44,
+                "ent.price"
+            ],
+            [
+                56,
+                60,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de carretera van rysel con cuadro blanco y negro. todo shimano ultegra plato (50-34) casette (11-30)",
+        "entities": [
+            [
+                13,
+                22,
+                "ent.discipline"
+            ],
+            [
+                23,
+                32,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mountain bike megamo rove en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
+        "entities": [
+            [
+                13,
+                26,
+                "ent.discipline"
+            ],
+            [
+                27,
+                33,
+                "ent.brand"
+            ],
+            [
+                34,
+                38,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mountain bike scott talla s válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. ideal para explorar caminos y senderos",
+        "entities": [
+            [
+                13,
+                26,
+                "ent.discipline"
+            ],
+            [
+                27,
+                32,
+                "ent.brand"
+            ],
+            [
+                39,
+                40,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "vendo orbea terra talla xl/s. muy pocas salidas. bici fantástica y ligera para mountain bike o mountain bike",
+        "entities": [
+            [
+                6,
+                11,
+                "ent.brand"
+            ],
+            [
+                12,
+                17,
+                "ent.model"
+            ],
+            [
+                24,
+                26,
+                "ent.size"
+            ],
+            [
+                27,
+                28,
+                "ent.size"
+            ],
+            [
+                79,
+                92,
+                "ent.discipline"
+            ],
+            [
+                95,
+                108,
+                "ent.discipline"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta cube de carretera en color gris claro. la vendo por 750 €",
+        "entities": [
+            [
+                10,
+                14,
+                "ent.brand"
+            ],
+            [
+                18,
+                27,
+                "ent.discipline"
+            ],
+            [
+                62,
+                65,
+                "ent.price"
+            ]
+        ]
+    },
+    {
+        "text": "bici de mountain bike. talla xl (aprox 188-199). poco uso, en perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                21,
+                "ent.discipline"
+            ],
+            [
+                29,
+                31,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta canyon alma del año 2018",
+        "entities": [
+            [
+                10,
+                16,
+                "ent.brand"
+            ],
+            [
+                17,
+                21,
+                "ent.model"
+            ],
+            [
+                30,
+                34,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "se vende bicicleta scott aspect de finales de abril 2021, con su factura y sus papeles, talla xxl, ruedas maxxis de 29 con kit tubelees",
+        "entities": [
+            [
+                19,
+                24,
+                "ent.brand"
+            ],
+            [
+                25,
+                31,
+                "ent.model"
+            ],
+            [
+                52,
+                56,
+                "ent.year"
+            ],
+            [
+                94,
+                97,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de montaña canyon alma en estupendas condiciones. talla xl. con poquísimo uso (puños de serie)",
         "entities": [
             [
                 21,
@@ -470,7 +1090,587 @@
         ]
     },
     {
-        "text": "Bicicleta de mountain bike Cube nuroad en talla S (54) para 1.70-1.80 de altura. Cuadro de acero ligero y aerodinámico",
+        "text": "bicicleta de mtb cube nuroad en talla m (54) para 1.70-1.80 de altura. cuadro de acero ligero y aerodinámico",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                21,
+                "ent.brand"
+            ],
+            [
+                22,
+                28,
+                "ent.model"
+            ],
+            [
+                38,
+                39,
+                "ent.size"
+            ],
+            [
+                81,
+                86,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de montaña van rysel talla xxl válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                20,
+                "ent.discipline"
+            ],
+            [
+                21,
+                30,
+                "ent.brand"
+            ],
+            [
+                37,
+                40,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mtb scott tamaño l válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                22,
+                "ent.brand"
+            ],
+            [
+                30,
+                31,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mtb orbea terra",
+        "entities": [
+            [
+                10,
+                13,
+                "ent.discipline"
+            ],
+            [
+                14,
+                19,
+                "ent.brand"
+            ],
+            [
+                20,
+                25,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mountain bike giant",
+        "entities": [
+            [
+                10,
+                23,
+                "ent.discipline"
+            ],
+            [
+                24,
+                29,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bici carretera orbea",
+        "entities": [
+            [
+                5,
+                14,
+                "ent.discipline"
+            ],
+            [
+                15,
+                20,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta carretera scott del año 2017",
+        "entities": [
+            [
+                10,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                25,
+                "ent.brand"
+            ],
+            [
+                34,
+                38,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bici gravel van rysel del año 2016",
+        "entities": [
+            [
+                5,
+                11,
+                "ent.discipline"
+            ],
+            [
+                12,
+                21,
+                "ent.brand"
+            ],
+            [
+                30,
+                34,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta carretera cannondale del 2016",
+        "entities": [
+            [
+                10,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                30,
+                "ent.brand"
+            ],
+            [
+                35,
+                39,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mountain bike megamo talla m con tija de carbono",
+        "entities": [
+            [
+                10,
+                23,
+                "ent.discipline"
+            ],
+            [
+                24,
+                30,
+                "ent.brand"
+            ],
+            [
+                37,
+                38,
+                "ent.size"
+            ],
+            [
+                51,
+                58,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta gravel megamo de tamaño xl con tija de acero",
+        "entities": [
+            [
+                10,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                23,
+                "ent.brand"
+            ],
+            [
+                34,
+                36,
+                "ent.size"
+            ],
+            [
+                49,
+                54,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel cuadro de acero y horquilla de aluminio",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                30,
+                35,
+                "ent.material"
+            ],
+            [
+                51,
+                59,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "cuadro de carbono en talla xl",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.material"
+            ],
+            [
+                27,
+                29,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "cuadro de aluminio tamaño m",
+        "entities": [
+            [
+                10,
+                18,
+                "ent.material"
+            ],
+            [
+                26,
+                27,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bici de gravel. talla xl (aprox 188-199). poco uso. perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                14,
+                "ent.discipline"
+            ],
+            [
+                22,
+                24,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mtb/carretera cube del año 2023",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                26,
+                "ent.discipline"
+            ],
+            [
+                27,
+                31,
+                "ent.brand"
+            ],
+            [
+                40,
+                44,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta nueva canyon de gravel por 580 €",
+        "entities": [
+            [
+                16,
+                22,
+                "ent.brand"
+            ],
+            [
+                26,
+                32,
+                "ent.discipline"
+            ],
+            [
+                37,
+                40,
+                "ent.price"
+            ]
+        ]
+    },
+    {
+        "text": "bici en buen estado cannondale de montaña por 580 €, del año 2017",
+        "entities": [
+            [
+                20,
+                30,
+                "ent.brand"
+            ],
+            [
+                34,
+                41,
+                "ent.discipline"
+            ],
+            [
+                46,
+                49,
+                "ent.price"
+            ],
+            [
+                61,
+                65,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bici cannondale practicamente nueva de montaña por 500 €, del año 2018",
+        "entities": [
+            [
+                5,
+                15,
+                "ent.brand"
+            ],
+            [
+                39,
+                46,
+                "ent.discipline"
+            ],
+            [
+                51,
+                54,
+                "ent.price"
+            ],
+            [
+                66,
+                70,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de carretera orbea con cuadro blanco y negro. todo shimano ultegra plato (50-34) casette (11-30)",
+        "entities": [
+            [
+                13,
+                22,
+                "ent.discipline"
+            ],
+            [
+                23,
+                28,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel cannondale radius en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                30,
+                "ent.brand"
+            ],
+            [
+                31,
+                37,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mountain bike orbea talla l válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. ideal para explorar caminos y senderos",
+        "entities": [
+            [
+                13,
+                26,
+                "ent.discipline"
+            ],
+            [
+                27,
+                32,
+                "ent.brand"
+            ],
+            [
+                39,
+                40,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "vendo giant revolt talla xxl/xxl. muy pocas salidas. bici fantástica y ligera para montaña o mtb",
+        "entities": [
+            [
+                6,
+                11,
+                "ent.brand"
+            ],
+            [
+                12,
+                18,
+                "ent.model"
+            ],
+            [
+                25,
+                28,
+                "ent.size"
+            ],
+            [
+                29,
+                32,
+                "ent.size"
+            ],
+            [
+                83,
+                90,
+                "ent.discipline"
+            ],
+            [
+                93,
+                96,
+                "ent.discipline"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta trek de montaña en color gris claro. la vendo por 600 €",
+        "entities": [
+            [
+                10,
+                14,
+                "ent.brand"
+            ],
+            [
+                18,
+                25,
+                "ent.discipline"
+            ],
+            [
+                60,
+                63,
+                "ent.price"
+            ]
+        ]
+    },
+    {
+        "text": "bici de mtb. talla xxl (aprox 188-199). poco uso, en perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                11,
+                "ent.discipline"
+            ],
+            [
+                19,
+                22,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta trek oiz del año 2020",
+        "entities": [
+            [
+                10,
+                14,
+                "ent.brand"
+            ],
+            [
+                15,
+                18,
+                "ent.model"
+            ],
+            [
+                27,
+                31,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "se vende bicicleta giant revolt de finales de abril 2018, con su factura y sus papeles, talla xl, ruedas maxxis de 29 con kit tubelees",
+        "entities": [
+            [
+                19,
+                24,
+                "ent.brand"
+            ],
+            [
+                25,
+                31,
+                "ent.model"
+            ],
+            [
+                52,
+                56,
+                "ent.year"
+            ],
+            [
+                94,
+                96,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de montaña orbea terra en estupendas condiciones. talla s. con poquísimo uso (puños de serie)",
+        "entities": [
+            [
+                21,
+                26,
+                "ent.brand"
+            ],
+            [
+                27,
+                32,
+                "ent.model"
+            ],
+            [
+                66,
+                67,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mountain bike trek nuroad en talla s (54) para 1.70-1.80 de altura. cuadro de carbono ligero y aerodinámico",
         "entities": [
             [
                 13,
@@ -494,13 +1694,1143 @@
             ],
             [
                 91,
-                96,
+                98,
                 "ent.material"
             ]
         ]
     },
     {
-        "text": "Bicicleta de cross country Giant talla L válida para personas entre 1,65 y 1,77",
+        "text": "bicicleta de carretera giant talla l válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                22,
+                "ent.discipline"
+            ],
+            [
+                23,
+                28,
+                "ent.brand"
+            ],
+            [
+                35,
+                36,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de carretera giant tamaño l válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                22,
+                "ent.discipline"
+            ],
+            [
+                23,
+                28,
+                "ent.brand"
+            ],
+            [
+                36,
+                37,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mountain bike giant revolt",
+        "entities": [
+            [
+                10,
+                23,
+                "ent.discipline"
+            ],
+            [
+                24,
+                29,
+                "ent.brand"
+            ],
+            [
+                30,
+                36,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta carretera giant",
+        "entities": [
+            [
+                10,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                25,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bici carretera giant",
+        "entities": [
+            [
+                5,
+                14,
+                "ent.discipline"
+            ],
+            [
+                15,
+                20,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta gravel megamo del año 2018",
+        "entities": [
+            [
+                10,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                23,
+                "ent.brand"
+            ],
+            [
+                32,
+                36,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bici carretera cannondale del año 2018",
+        "entities": [
+            [
+                5,
+                14,
+                "ent.discipline"
+            ],
+            [
+                15,
+                25,
+                "ent.brand"
+            ],
+            [
+                34,
+                38,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta gravel cannondale del 2026",
+        "entities": [
+            [
+                10,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                27,
+                "ent.brand"
+            ],
+            [
+                32,
+                36,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta gravel giant talla xxl con tija de acero",
+        "entities": [
+            [
+                10,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                22,
+                "ent.brand"
+            ],
+            [
+                29,
+                32,
+                "ent.size"
+            ],
+            [
+                45,
+                50,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mtb van rysel de tamaño m con tija de carbono",
+        "entities": [
+            [
+                10,
+                13,
+                "ent.discipline"
+            ],
+            [
+                14,
+                23,
+                "ent.brand"
+            ],
+            [
+                34,
+                35,
+                "ent.size"
+            ],
+            [
+                48,
+                55,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mtb cuadro de acero y horquilla de carbono",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                27,
+                32,
+                "ent.material"
+            ],
+            [
+                48,
+                55,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "cuadro de carbono en talla xxl",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.material"
+            ],
+            [
+                27,
+                30,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "cuadro de acero tamaño m",
+        "entities": [
+            [
+                10,
+                15,
+                "ent.material"
+            ],
+            [
+                23,
+                24,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bici de montaña. talla m (aprox 188-199). poco uso. perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                15,
+                "ent.discipline"
+            ],
+            [
+                23,
+                24,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de montaña/montaña canyon del año 2023",
+        "entities": [
+            [
+                13,
+                20,
+                "ent.discipline"
+            ],
+            [
+                21,
+                28,
+                "ent.discipline"
+            ],
+            [
+                29,
+                35,
+                "ent.brand"
+            ],
+            [
+                44,
+                48,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta nueva van rysel de carretera por 750 €",
+        "entities": [
+            [
+                16,
+                25,
+                "ent.brand"
+            ],
+            [
+                29,
+                38,
+                "ent.discipline"
+            ],
+            [
+                43,
+                46,
+                "ent.price"
+            ]
+        ]
+    },
+    {
+        "text": "bici en buen estado canyon de mtb por 650 €, del año 2026",
+        "entities": [
+            [
+                20,
+                26,
+                "ent.brand"
+            ],
+            [
+                30,
+                33,
+                "ent.discipline"
+            ],
+            [
+                38,
+                41,
+                "ent.price"
+            ],
+            [
+                53,
+                57,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bici trek practicamente nueva de carretera por 700 €, del año 2016",
+        "entities": [
+            [
+                5,
+                9,
+                "ent.brand"
+            ],
+            [
+                33,
+                42,
+                "ent.discipline"
+            ],
+            [
+                47,
+                50,
+                "ent.price"
+            ],
+            [
+                62,
+                66,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mtb cube con cuadro blanco y negro. todo shimano ultegra plato (50-34) casette (11-30)",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                21,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel trek grizl en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                24,
+                "ent.brand"
+            ],
+            [
+                25,
+                30,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel cannondale talla xxl válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. ideal para explorar caminos y senderos",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                30,
+                "ent.brand"
+            ],
+            [
+                37,
+                40,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "vendo orbea terra talla xl/m. muy pocas salidas. bici fantástica y ligera para gravel o gravel",
+        "entities": [
+            [
+                6,
+                11,
+                "ent.brand"
+            ],
+            [
+                12,
+                17,
+                "ent.model"
+            ],
+            [
+                24,
+                26,
+                "ent.size"
+            ],
+            [
+                27,
+                28,
+                "ent.size"
+            ],
+            [
+                79,
+                85,
+                "ent.discipline"
+            ],
+            [
+                88,
+                94,
+                "ent.discipline"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta van rysel de mountain bike en color gris claro. la vendo por 550 €",
+        "entities": [
+            [
+                10,
+                19,
+                "ent.brand"
+            ],
+            [
+                23,
+                36,
+                "ent.discipline"
+            ],
+            [
+                71,
+                74,
+                "ent.price"
+            ]
+        ]
+    },
+    {
+        "text": "bici de mtb. talla l (aprox 188-199). poco uso, en perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                11,
+                "ent.discipline"
+            ],
+            [
+                19,
+                20,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta cannondale alma del año 2025",
+        "entities": [
+            [
+                10,
+                20,
+                "ent.brand"
+            ],
+            [
+                21,
+                25,
+                "ent.model"
+            ],
+            [
+                34,
+                38,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "se vende bicicleta megamo grizl de finales de abril 2020, con su factura y sus papeles, talla s, ruedas maxxis de 29 con kit tubelees",
+        "entities": [
+            [
+                19,
+                25,
+                "ent.brand"
+            ],
+            [
+                26,
+                31,
+                "ent.model"
+            ],
+            [
+                52,
+                56,
+                "ent.year"
+            ],
+            [
+                94,
+                95,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de montaña scott aspect en estupendas condiciones. talla s. con poquísimo uso (puños de serie)",
+        "entities": [
+            [
+                21,
+                26,
+                "ent.brand"
+            ],
+            [
+                27,
+                33,
+                "ent.model"
+            ],
+            [
+                67,
+                68,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel scott scale en talla xxl (54) para 1.70-1.80 de altura. cuadro de carbono ligero y aerodinámico",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                25,
+                "ent.brand"
+            ],
+            [
+                26,
+                31,
+                "ent.model"
+            ],
+            [
+                41,
+                44,
+                "ent.size"
+            ],
+            [
+                86,
+                93,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de carretera giant talla s válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                22,
+                "ent.discipline"
+            ],
+            [
+                23,
+                28,
+                "ent.brand"
+            ],
+            [
+                35,
+                36,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mtb megamo tamaño s válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                23,
+                "ent.brand"
+            ],
+            [
+                31,
+                32,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta montaña orbea alma",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.discipline"
+            ],
+            [
+                18,
+                23,
+                "ent.brand"
+            ],
+            [
+                24,
+                28,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mtb cannondale",
+        "entities": [
+            [
+                10,
+                13,
+                "ent.discipline"
+            ],
+            [
+                14,
+                24,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bici montaña giant",
+        "entities": [
+            [
+                5,
+                12,
+                "ent.discipline"
+            ],
+            [
+                13,
+                18,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta mtb orbea del año 2020",
+        "entities": [
+            [
+                10,
+                13,
+                "ent.discipline"
+            ],
+            [
+                14,
+                19,
+                "ent.brand"
+            ],
+            [
+                28,
+                32,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bici mountain bike scott del año 2017",
+        "entities": [
+            [
+                5,
+                18,
+                "ent.discipline"
+            ],
+            [
+                19,
+                24,
+                "ent.brand"
+            ],
+            [
+                33,
+                37,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta carretera orbea del 2016",
+        "entities": [
+            [
+                10,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                25,
+                "ent.brand"
+            ],
+            [
+                30,
+                34,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta montaña megamo talla l con tija de aluminio",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.discipline"
+            ],
+            [
+                18,
+                24,
+                "ent.brand"
+            ],
+            [
+                31,
+                32,
+                "ent.size"
+            ],
+            [
+                45,
+                53,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta montaña megamo de tamaño s con tija de acero",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.discipline"
+            ],
+            [
+                18,
+                24,
+                "ent.brand"
+            ],
+            [
+                35,
+                36,
+                "ent.size"
+            ],
+            [
+                49,
+                54,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mtb cuadro de acero y horquilla de acero",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                27,
+                32,
+                "ent.material"
+            ],
+            [
+                48,
+                53,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "cuadro de aluminio en talla l",
+        "entities": [
+            [
+                10,
+                18,
+                "ent.material"
+            ],
+            [
+                28,
+                29,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "cuadro de carbono tamaño m",
+        "entities": [
+            [
+                10,
+                17,
+                "ent.material"
+            ],
+            [
+                25,
+                26,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bici de gravel. talla xl (aprox 188-199). poco uso. perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                14,
+                "ent.discipline"
+            ],
+            [
+                22,
+                24,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel/mountain bike canyon del año 2023",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                33,
+                "ent.discipline"
+            ],
+            [
+                34,
+                40,
+                "ent.brand"
+            ],
+            [
+                49,
+                53,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta nueva cannondale de mountain bike por 580 €",
+        "entities": [
+            [
+                16,
+                26,
+                "ent.brand"
+            ],
+            [
+                30,
+                43,
+                "ent.discipline"
+            ],
+            [
+                48,
+                51,
+                "ent.price"
+            ]
+        ]
+    },
+    {
+        "text": "bici en buen estado cube de gravel por 550 €, del año 2023",
+        "entities": [
+            [
+                20,
+                24,
+                "ent.brand"
+            ],
+            [
+                28,
+                34,
+                "ent.discipline"
+            ],
+            [
+                39,
+                42,
+                "ent.price"
+            ],
+            [
+                54,
+                58,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bici orbea practicamente nueva de mountain bike por 580 €, del año 2017",
+        "entities": [
+            [
+                5,
+                10,
+                "ent.brand"
+            ],
+            [
+                34,
+                47,
+                "ent.discipline"
+            ],
+            [
+                52,
+                55,
+                "ent.price"
+            ],
+            [
+                67,
+                71,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de montaña trek con cuadro blanco y negro. todo shimano ultegra plato (50-34) casette (11-30)",
+        "entities": [
+            [
+                13,
+                20,
+                "ent.discipline"
+            ],
+            [
+                21,
+                25,
+                "ent.brand"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de gravel trek alma en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
+        "entities": [
+            [
+                13,
+                19,
+                "ent.discipline"
+            ],
+            [
+                20,
+                24,
+                "ent.brand"
+            ],
+            [
+                25,
+                29,
+                "ent.model"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de montaña orbea talla m válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. ideal para explorar caminos y senderos",
+        "entities": [
+            [
+                13,
+                20,
+                "ent.discipline"
+            ],
+            [
+                21,
+                26,
+                "ent.brand"
+            ],
+            [
+                33,
+                34,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "vendo van rysel nuroad talla l/xxl. muy pocas salidas. bici fantástica y ligera para mountain bike o gravel",
+        "entities": [
+            [
+                6,
+                15,
+                "ent.brand"
+            ],
+            [
+                16,
+                22,
+                "ent.model"
+            ],
+            [
+                29,
+                30,
+                "ent.size"
+            ],
+            [
+                31,
+                34,
+                "ent.size"
+            ],
+            [
+                85,
+                98,
+                "ent.discipline"
+            ],
+            [
+                101,
+                107,
+                "ent.discipline"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta orbea de gravel en color gris claro. la vendo por 650 €",
+        "entities": [
+            [
+                10,
+                15,
+                "ent.brand"
+            ],
+            [
+                19,
+                25,
+                "ent.discipline"
+            ],
+            [
+                60,
+                63,
+                "ent.price"
+            ]
+        ]
+    },
+    {
+        "text": "bici de mtb. talla l (aprox 188-199). poco uso, en perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                11,
+                "ent.discipline"
+            ],
+            [
+                19,
+                20,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta trek alma del año 2025",
+        "entities": [
+            [
+                10,
+                14,
+                "ent.brand"
+            ],
+            [
+                15,
+                19,
+                "ent.model"
+            ],
+            [
+                28,
+                32,
+                "ent.year"
+            ]
+        ]
+    },
+    {
+        "text": "se vende bicicleta giant revolt de finales de abril 2020, con su factura y sus papeles, talla s, ruedas maxxis de 29 con kit tubelees",
+        "entities": [
+            [
+                19,
+                24,
+                "ent.brand"
+            ],
+            [
+                25,
+                31,
+                "ent.model"
+            ],
+            [
+                52,
+                56,
+                "ent.year"
+            ],
+            [
+                94,
+                95,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de montaña scott scale en estupendas condiciones. talla s. con poquísimo uso (puños de serie)",
+        "entities": [
+            [
+                21,
+                26,
+                "ent.brand"
+            ],
+            [
+                27,
+                32,
+                "ent.model"
+            ],
+            [
+                66,
+                67,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mountain bike trek grizl en talla xxl (54) para 1.70-1.80 de altura. cuadro de acero ligero y aerodinámico",
         "entities": [
             [
                 13,
@@ -509,7 +2839,57 @@
             ],
             [
                 27,
+                31,
+                "ent.brand"
+            ],
+            [
                 32,
+                37,
+                "ent.model"
+            ],
+            [
+                47,
+                50,
+                "ent.size"
+            ],
+            [
+                92,
+                97,
+                "ent.material"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mtb orbea talla xl válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                16,
+                "ent.discipline"
+            ],
+            [
+                17,
+                22,
+                "ent.brand"
+            ],
+            [
+                29,
+                31,
+                "ent.size"
+            ]
+        ]
+    },
+    {
+        "text": "bicicleta de mountain bike trek tamaño l válida para personas entre 1,65 y 1,77",
+        "entities": [
+            [
+                13,
+                26,
+                "ent.discipline"
+            ],
+            [
+                27,
+                31,
                 "ent.brand"
             ],
             [

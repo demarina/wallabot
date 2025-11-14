@@ -6,8 +6,10 @@
   "Bici [ent.discipline] [ent.brand] del año [ent.year]",
   "Bicicleta [ent.discipline] [ent.brand] del [ent.year]",
   "Bicicleta [ent.discipline] [ent.brand] talla [ent.size] con tija de [ent.material]",
+  "Bicicleta [ent.discipline] [ent.brand] de tamaño [ent.size] con tija de [ent.material]",
   "Bicicleta de [ent.discipline] cuadro de [ent.material] y horquilla de [ent.material]",
   "Cuadro de [ent.material] en talla [ent.size]",
+  "Cuadro de [ent.material] tamaño [ent.size]",
   "Bici de [ent.discipline]. Talla [ent.size] (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
   "Bicicleta de [ent.discipline]/[ent.discipline] [ent.brand] del año [ent.year]",
   "Bicicleta nueva [ent.brand] de [ent.discipline] por [ent.price] €",
@@ -23,5 +25,6 @@
   "Se vende bicicleta [ent.brand] [ent.model] de finales de abril [ent.year], con su factura y sus papeles, talla [ent.size], ruedas maxxis de 29 con kit tubelees",
   "Bicicleta de montaña [ent.brand] [ent.model] en estupendas condiciones. Talla [ent.size]. Con poquísimo uso (puños de serie)",
   "Bicicleta de [ent.discipline] [ent.brand] [ent.model] en talla [ent.size] (54) para 1.70-1.80 de altura. Cuadro de [ent.material] ligero y aerodinámico",
-  "Bicicleta de [ent.discipline] [ent.brand] talla [ent.size] válida para personas entre 1,65 y 1,77"
+  "Bicicleta de [ent.discipline] [ent.brand] talla [ent.size] válida para personas entre 1,65 y 1,77",
+  "Bicicleta de [ent.discipline] [ent.brand] tamaño [ent.size] válida para personas entre 1,65 y 1,77"
 ]
