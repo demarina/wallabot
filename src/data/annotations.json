@@ -1,6 +1,6 @@
 [
     {
-        "text": "Bicicleta cross country Van Rysel oiz",
+        "text": "Bicicleta cross country Bianchi alma",
         "entities": [
             [
                 10,
@@ -8,49 +8,49 @@
                 "cross country"
             ],
             [
-                27,
-                36,
-                "Van Rysel"
+                24,
+                31,
+                "Bianchi"
             ],
             [
-                39,
-                42,
-                "oiz"
+                32,
+                36,
+                "alma"
             ]
         ]
     },
     {
-        "text": "Bicicleta monta\u00f1a Specialized",
+        "text": "Bicicleta carretera Bh",
         "entities": [
             [
                 10,
-                17,
-                "monta\u00f1a"
+                19,
+                "carretera"
             ],
             [
-                27,
-                38,
-                "Specialized"
+                20,
+                22,
+                "Bh"
             ]
         ]
     },
     {
-        "text": "Bici backpaking Specialized",
+        "text": "Bici carretera Cube",
         "entities": [
             [
                 5,
-                15,
-                "backpaking"
+                14,
+                "carretera"
             ],
             [
-                22,
-                33,
-                "Specialized"
+                15,
+                19,
+                "Cube"
             ]
         ]
     },
     {
-        "text": "Bicicleta mountain bike Pinarello del a\u00f1o 2025",
+        "text": "Bicicleta mountain bike Trek del año 2022",
         "entities": [
             [
                 10,
@@ -58,19 +58,39 @@
                 "mountain bike"
             ],
             [
-                27,
-                36,
-                "Pinarello"
+                24,
+                28,
+                "Trek"
             ],
             [
-                47,
-                51,
-                "2025"
+                37,
+                41,
+                "2022"
             ]
         ]
     },
     {
-        "text": "Bicicleta cx Giant del 2022",
+        "text": "Bicicleta mtb Triban del 2016",
+        "entities": [
+            [
+                10,
+                13,
+                "mtb"
+            ],
+            [
+                14,
+                20,
+                "Triban"
+            ],
+            [
+                25,
+                29,
+                "2016"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta cx Mendiz talla S con tija de carbono",
         "entities": [
             [
                 10,
@@ -78,283 +98,263 @@
                 "cx"
             ],
             [
-                27,
-                32,
-                "Giant"
+                13,
+                19,
+                "Mendiz"
             ],
             [
-                43,
+                26,
+                27,
+                "S"
+            ],
+            [
+                40,
                 47,
-                "2022"
+                "carbono"
             ]
         ]
     },
     {
-        "text": "Bicicleta monta\u00f1a Bianchi talla M con tija de aluminio",
+        "text": "Bicicleta de backpaking cuadro de aluminio y horquilla de carbono",
+        "entities": [
+            [
+                13,
+                23,
+                "backpaking"
+            ],
+            [
+                34,
+                42,
+                "aluminio"
+            ],
+            [
+                58,
+                65,
+                "carbono"
+            ]
+        ]
+    },
+    {
+        "text": "Cuadro de carbono en talla M",
         "entities": [
             [
                 10,
                 17,
-                "monta\u00f1a"
+                "carbono"
             ],
             [
                 27,
-                34,
-                "Bianchi"
-            ],
-            [
-                45,
-                46,
+                28,
                 "M"
-            ],
-            [
-                68,
-                76,
-                "aluminio"
             ]
         ]
     },
     {
-        "text": "Bicicleta de carretera cuadro de aluminio y horquilla de aluminio",
+        "text": "Bici de montaña. Talla XL (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
         "entities": [
             [
-                13,
-                22,
-                "carretera"
-            ],
-            [
-                40,
-                48,
-                "aluminio"
-            ],
-            [
-                70,
-                78,
-                "aluminio"
-            ]
-        ]
-    },
-    {
-        "text": "Cuadro de acero en talla XL",
-        "entities": [
-            [
-                10,
+                8,
                 15,
-                "acero"
+                "montaña"
             ],
             [
-                34,
-                36,
+                23,
+                25,
                 "XL"
             ]
         ]
     },
     {
-        "text": "Bici de cross country. Talla XXL (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
-        "entities": [
-            [
-                8,
-                21,
-                "cross country"
-            ],
-            [
-                32,
-                35,
-                "XXL"
-            ]
-        ]
-    },
-    {
-        "text": "Bicicleta de cross country/cross country Cannondale del a\u00f1o 2020",
+        "text": "Bicicleta de cx/mountain bike Specialized del año 2021",
         "entities": [
             [
                 13,
-                26,
-                "cross country"
+                15,
+                "cx"
+            ],
+            [
+                16,
+                29,
+                "mountain bike"
             ],
             [
                 30,
-                43,
-                "cross country"
+                41,
+                "Specialized"
             ],
             [
-                47,
-                57,
-                "Cannondale"
-            ],
-            [
-                67,
-                71,
-                "2020"
+                50,
+                54,
+                "2021"
             ]
         ]
     },
     {
-        "text": "Bicicleta nueva Scott de cross country por 580 \u20ac",
+        "text": "Bicicleta nueva Bh de mountain bike por 750 €",
         "entities": [
             [
                 16,
-                21,
-                "Scott"
+                18,
+                "Bh"
             ],
             [
-                31,
-                44,
-                "cross country"
+                22,
+                35,
+                "mountain bike"
             ],
             [
-                52,
-                55,
-                "580"
+                40,
+                43,
+                "750"
             ]
         ]
     },
     {
-        "text": "Bici en buen estado Kona de backpaking por 650 \u20ac, del a\u00f1o 2020",
+        "text": "Bici en buen estado Bianchi de backpaking por 550 €, del año 2019",
         "entities": [
             [
                 20,
-                24,
-                "Kona"
+                27,
+                "Bianchi"
             ],
             [
-                35,
-                45,
+                31,
+                41,
                 "backpaking"
             ],
             [
-                56,
-                59,
-                "650"
+                46,
+                49,
+                "550"
             ],
             [
-                79,
-                83,
-                "2020"
+                61,
+                65,
+                "2019"
             ]
         ]
     },
     {
-        "text": "Bicicleta de cross country Giant con cuadro blanco y negro. Todo Shimano Ultegra plato (50-34) casette (11-30)",
+        "text": "Bicicleta de cx Giant con cuadro blanco y negro. Todo Shimano Ultegra plato (50-34) casette (11-30)",
         "entities": [
             [
                 13,
-                26,
-                "cross country"
+                15,
+                "cx"
             ],
             [
-                30,
-                35,
+                16,
+                21,
                 "Giant"
             ]
         ]
     },
     {
-        "text": "Bicicleta de gravel Cervelo grizl en color blanco, rojo y negro en excelentes condiciones, servicios al d\u00eda y muy bien cuidada",
+        "text": "Bicicleta de montaña Canyon radius en color blanco, rojo y negro en excelentes condiciones, servicios al día y muy bien cuidada",
         "entities": [
             [
                 13,
-                19,
-                "gravel"
+                20,
+                "montaña"
             ],
             [
-                30,
-                37,
-                "Cervelo"
+                21,
+                27,
+                "Canyon"
             ],
             [
-                42,
-                47,
-                "grizl"
+                28,
+                34,
+                "radius"
             ]
         ]
     },
     {
-        "text": "Bicicleta de fixie Cube talla XL v\u00e1lida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. Ideal para explorar caminos y senderos",
+        "text": "Bicicleta de montaña Btwin talla XL válida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. Ideal para explorar caminos y senderos",
         "entities": [
             [
                 13,
-                18,
-                "fixie"
+                20,
+                "montaña"
             ],
             [
-                30,
-                34,
-                "Cube"
+                21,
+                26,
+                "Btwin"
             ],
             [
-                48,
-                50,
+                33,
+                35,
                 "XL"
             ]
         ]
     },
     {
-        "text": "Vendo Megamo nuroad talla XXL/XXL. Muy pocas salidas. Bici fant\u00e1stica y ligera para carretera o fixie",
+        "text": "Vendo Bianchi radius talla S/L. Muy pocas salidas. Bici fantástica y ligera para fixie o cross country",
         "entities": [
             [
                 6,
-                12,
-                "Megamo"
+                13,
+                "Bianchi"
             ],
             [
-                18,
-                24,
-                "nuroad"
+                14,
+                20,
+                "radius"
             ],
             [
-                36,
-                39,
-                "XXL"
+                27,
+                28,
+                "S"
             ],
             [
-                47,
-                50,
-                "XXL"
+                29,
+                30,
+                "L"
             ],
             [
-                108,
-                117,
-                "carretera"
-            ],
-            [
-                127,
-                132,
+                81,
+                86,
                 "fixie"
+            ],
+            [
+                89,
+                102,
+                "cross country"
             ]
         ]
     },
     {
-        "text": "Bicicleta Canyon de carretera en color gris claro. La vendo por 700 \u20ac",
+        "text": "Bicicleta Orbea de fixie en color gris claro. La vendo por 750 €",
         "entities": [
             [
                 10,
-                16,
-                "Canyon"
+                15,
+                "Orbea"
             ],
             [
-                25,
-                34,
-                "carretera"
+                19,
+                24,
+                "fixie"
             ],
             [
-                76,
-                79,
-                "700"
+                59,
+                62,
+                "750"
             ]
         ]
     },
     {
-        "text": "Bici de mountain bike. Talla XXL (aprox 188-199). Poco uso, en perfecto estado de funcionamiento.",
+        "text": "Bici de montaña. Talla XXL (aprox 188-199). Poco uso, en perfecto estado de funcionamiento.",
         "entities": [
             [
                 8,
-                21,
-                "mountain bike"
+                15,
+                "montaña"
             ],
             [
-                32,
-                35,
+                23,
+                26,
                 "XXL"
             ]
         ]

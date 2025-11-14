@@ -35,9 +35,10 @@ class Ner:
             entities_info = []
             new_phrase = phrase
             matches = re.finditer(self.REGEX_PATTERN, phrase)
+
             for m in matches:
                 e_type = m.group(0)
-                start = int(m.start(0))
+                start = new_phrase.find(e_type)
 
                 e_type_key = e_type.replace('[', '').replace(']', '')
                 entity_value = random.choice(entities[e_type_key])
@@ -53,8 +54,8 @@ class Ner:
             )
 
         annotated_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.ANNOTATIONS_FILE_NAME)
-        with open(annotated_data_file_path, 'w') as f:
-            f.write(json.dumps(annotated_data, indent=4))
+        with open(annotated_data_file_path, 'w', encoding='utf-8') as f:
+            f.write(json.dumps(annotated_data, indent=4, ensure_ascii=False))
 
         print(f'File "{annotated_data_file_path}" created.')
 
