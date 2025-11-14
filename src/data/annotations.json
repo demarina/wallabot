@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Bicicleta backpaking Triban grizl",
+        "entities": [
+            [
+                10,
+                26,
+                "backpaking"
+            ],
+            [
+                27,
+                38,
+                "Triban"
+            ],
+            [
+                39,
+                50,
+                "grizl"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta gravel Van Rysel",
+        "entities": [
+            [
+                10,
+                26,
+                "gravel"
+            ],
+            [
+                27,
+                38,
+                "Van Rysel"
+            ]
+        ]
+    },
+    {
+        "text": "Bici cross country Sworks",
+        "entities": [
+            [
+                5,
+                21,
+                "cross country"
+            ],
+            [
+                22,
+                33,
+                "Sworks"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta monta\u00f1a Monster del a\u00f1o 2023",
+        "entities": [
+            [
+                10,
+                26,
+                "monta\u00f1a"
+            ],
+            [
+                27,
+                38,
+                "Monster"
+            ],
+            [
+                47,
+                57,
+                "2023"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta backpaking Megamo del 2024",
+        "entities": [
+            [
+                10,
+                26,
+                "backpaking"
+            ],
+            [
+                27,
+                38,
+                "Megamo"
+            ],
+            [
+                43,
+                53,
+                "2024"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta fixie Canyon talla XXL con tija de acero",
+        "entities": [
+            [
+                10,
+                26,
+                "fixie"
+            ],
+            [
+                27,
+                38,
+                "Canyon"
+            ],
+            [
+                45,
+                55,
+                "XXL"
+            ],
+            [
+                68,
+                82,
+                "acero"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de monta\u00f1a cuadro de aluminio y horquilla de carbono",
+        "entities": [
+            [
+                13,
+                29,
+                "monta\u00f1a"
+            ],
+            [
+                40,
+                54,
+                "aluminio"
+            ],
+            [
+                70,
+                84,
+                "carbono"
+            ]
+        ]
+    },
+    {
+        "text": "Cuadro de aluminio en talla M",
+        "entities": [
+            [
+                10,
+                24,
+                "aluminio"
+            ],
+            [
+                34,
+                44,
+                "M"
+            ]
+        ]
+    },
+    {
+        "text": "Bici de mtb. Talla XL (aprox 188-199). Poco uso. Perfecto estado de funcionamiento",
+        "entities": [
+            [
+                8,
+                24,
+                "mtb"
+            ],
+            [
+                32,
+                42,
+                "XL"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de monta\u00f1a/cx Mendiz del a\u00f1o 2020",
+        "entities": [
+            [
+                13,
+                29,
+                "monta\u00f1a"
+            ],
+            [
+                30,
+                46,
+                "cx"
+            ],
+            [
+                47,
+                58,
+                "Mendiz"
+            ],
+            [
+                67,
+                77,
+                "2020"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta nueva Btwin de backpaking por 750 \u20ac",
+        "entities": [
+            [
+                16,
+                27,
+                "Btwin"
+            ],
+            [
+                31,
+                47,
+                "backpaking"
+            ],
+            [
+                52,
+                63,
+                "750"
+            ]
+        ]
+    },
+    {
+        "text": "Bici en buen estado Btwin de cx por 650 \u20ac, del a\u00f1o 2021",
+        "entities": [
+            [
+                20,
+                31,
+                "Btwin"
+            ],
+            [
+                35,
+                51,
+                "cx"
+            ],
+            [
+                56,
+                67,
+                "650"
+            ],
+            [
+                79,
+                89,
+                "2021"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de gravel Giant con cuadro blanco y negro. Todo Shimano Ultegra plato (50-34) casette (11-30)",
+        "entities": [
+            [
+                13,
+                29,
+                "gravel"
+            ],
+            [
+                30,
+                41,
+                "Giant"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de cx Cervelo grizl en color blanco, rojo y negro en excelentes condiciones, servicios al d\u00eda y muy bien cuidada",
+        "entities": [
+            [
+                13,
+                29,
+                "cx"
+            ],
+            [
+                30,
+                41,
+                "Cervelo"
+            ],
+            [
+                42,
+                53,
+                "grizl"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta de gravel Monster talla XXL v\u00e1lida para personas entre 1,65 y 1,77 aproximadamente en color verde claro. Ideal para explorar caminos y senderos",
+        "entities": [
+            [
+                13,
+                29,
+                "gravel"
+            ],
+            [
+                30,
+                41,
+                "Monster"
+            ],
+            [
+                48,
+                58,
+                "XXL"
+            ]
+        ]
+    },
+    {
+        "text": "Vendo Cube oiz talla XL/M. Muy pocas salidas. Bici fant\u00e1stica y ligera para mtb o carretera",
+        "entities": [
+            [
+                6,
+                17,
+                "Cube"
+            ],
+            [
+                18,
+                29,
+                "oiz"
+            ],
+            [
+                36,
+                46,
+                "XL"
+            ],
+            [
+                47,
+                57,
+                "M"
+            ],
+            [
+                108,
+                124,
+                "mtb"
+            ],
+            [
+                127,
+                143,
+                "carretera"
+            ]
+        ]
+    },
+    {
+        "text": "Bicicleta Canyon de gravel en color gris claro. La vendo por 700 \u20ac",
+        "entities": [
+            [
+                10,
+                21,
+                "Canyon"
+            ],
+            [
+                25,
+                41,
+                "gravel"
+            ],
+            [
+                76,
+                87,
+                "700"
+            ]
+        ]
+    },
+    {
+        "text": "Bici de mtb. Talla XL (aprox 188-199). Poco uso, en perfecto estado de funcionamiento.",
+        "entities": [
+            [
+                8,
+                24,
+                "mtb"
+            ],
+            [
+                32,
+                42,
+                "XL"
+            ]
+        ]
+    }
+]
