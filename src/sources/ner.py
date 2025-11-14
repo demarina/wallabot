@@ -85,6 +85,9 @@ class Ner:
         print('Start training...')
 
         training_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.TRAINING_SET_FILE_NAME)
+        if not os.path.exists(training_data_file_path):
+            print(f'File "{training_data_file_path}" not found.')
+            raise
 
         with open(training_data_file_path, 'r') as f:
             training_data = json.load(f)
@@ -100,8 +103,6 @@ class Ner:
 
         n_iter = 30
         optimizer = nlp.initialize()
-
-        print('Start training')
 
         for _ in range(n_iter):
             random.shuffle(training_data)
