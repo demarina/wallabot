@@ -16,7 +16,7 @@ class Ner:
     NER_PHRASES_FILE_NAME = 'ner_phrases.json'
     TRAINING_SET_FILE_NAME = 'training_set.json'
 
-    WALLABOT_MODEL_NAME = 'wallabot_model'
+    WALLABOT_MODEL_NAME = 'wallabot_bikes_model'
 
     REGEX_PATTERN = r'\[ent\.[^\]]+\]'
 

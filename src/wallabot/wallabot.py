@@ -27,7 +27,7 @@ def main():
     chrome_options.add_argument('--disable-blink-features=AutomationControlled')
     chrome_options.add_argument('--start-maximized')
 
-    nlp_model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'trainer', 'data')
+    nlp_model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'trainer', 'data', 'bikes')
     walla_ner = Ner(nlp_model_path=nlp_model_path)
     mongo_cli = MongoDB(host='localhost', port='27017', db_name='wallabot', user='admin', password='admin123')
 
