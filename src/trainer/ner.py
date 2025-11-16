@@ -16,24 +16,24 @@ class Ner:
     NER_PHRASES_FILE_NAME = 'ner_phrases.json'
     TRAINING_SET_FILE_NAME = 'training_set.json'
 
-    MODEL_SPACY = 'es_core_news_sm'
     WALLABOT_MODEL_NAME = 'wallabot_model'
 
     REGEX_PATTERN = r'\[ent\.[^\]]+\]'
 
-    def __init__(self):
-        pass
+    def __init__(self, nlp_model_path: str = None):
+        if nlp_model_path is not None:
+            self._nlp_model = spacy.load(os.path.join(nlp_model_path, self.WALLABOT_MODEL_NAME))
 
-    def generate_training_data(self) -> None:
+    def generate_training_data(self, data_folder_path: str) -> None:
         print('Start generating dataset...')
-        entities_file = os.path.join(os.path.dirname(__file__), '..', 'data', self.ENTITIES_FILE_NAME)
+        entities_file = os.path.join(data_folder_path, self.ENTITIES_FILE_NAME)
         if os.path.exists(entities_file):
             entities = json.load(open(entities_file))
         else:
             print(f'Entities file "{entities_file}" not found.')
             raise
 
-        ner_phrases_file = os.path.join(os.path.dirname(__file__), '..', 'data', self.NER_PHRASES_FILE_NAME)
+        ner_phrases_file = os.path.join(data_folder_path, self.NER_PHRASES_FILE_NAME)
         if os.path.exists(ner_phrases_file):
             phrases = json.load(open(ner_phrases_file))
         else:
@@ -75,16 +75,16 @@ class Ner:
                     }
                 )
 
-        training_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.TRAINING_SET_FILE_NAME)
+        training_data_file_path = os.path.join(data_folder_path, self.TRAINING_SET_FILE_NAME)
         with open(training_data_file_path, 'w', encoding='utf-8') as f:
             f.write(json.dumps(annotated_data, indent=4, ensure_ascii=False))
 
         print(f'File "{training_data_file_path}" created.')
 
-    def train(self) -> None:
+    def train(self, data_folder_path: str, nlp_model_path: str) -> None:
         print('Start training...')
 
-        training_data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', self.TRAINING_SET_FILE_NAME)
+        training_data_file_path = os.path.join(data_folder_path, self.TRAINING_SET_FILE_NAME)
         if not os.path.exists(training_data_file_path):
             print(f'File "{training_data_file_path}" not found.')
             raise
@@ -117,12 +117,16 @@ class Ner:
 
                 nlp.update([example], losses=losses, drop=0.2, sgd=optimizer)
 
-        nlp.to_disk(self.WALLABOT_MODEL_NAME)
-        print(f'Finish training. Model save in {self.WALLABOT_MODEL_NAME}.')
+
+        if not os.path.exists(nlp_model_path):
+            os.makedirs(nlp_model_path)
+        dest_model = os.path.join(nlp_model_path, self.WALLABOT_MODEL_NAME)
+        nlp.to_disk(dest_model)
+        print(f'Finish training. Model save in {dest_model}.')
 
     def predict(self, query: str) -> List[Dict]:
-        nlp_model = spacy.load(self.WALLABOT_MODEL_NAME)
-        predict = nlp_model(query.lower())
+
+        predict = self._nlp_model(query.lower())
         result = []
         for ent in predict.ents:
             result.append({

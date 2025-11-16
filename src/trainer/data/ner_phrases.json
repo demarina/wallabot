@@ -26,5 +26,7 @@
   "Bicicleta de montaña [ent.brand] [ent.model] en estupendas condiciones. Talla [ent.size]. Con poquísimo uso (puños de serie)",
   "Bicicleta de [ent.discipline] [ent.brand] [ent.model] en talla [ent.size] (54) para 1.70-1.80 de altura. Cuadro de [ent.material] ligero y aerodinámico",
   "Bicicleta de [ent.discipline] [ent.brand] talla [ent.size] válida para personas entre 1,65 y 1,77",
-  "Bicicleta de [ent.discipline] [ent.brand] tamaño [ent.size] válida para personas entre 1,65 y 1,77"
+  "Bicicleta de [ent.discipline] [ent.brand] tamaño [ent.size] válida para personas entre 1,65 y 1,77",
+  "[ent.brand] [ent.model] - talla [ent.size] - [ent.year]",
+  "Bicicleta [ent.discipline] [ent.brand] [ent.model] [ent.year] Talla [ent.size]"
 ]

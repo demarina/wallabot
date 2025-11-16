@@ -1,0 +1,2 @@
+spacy==3.8.9
+spacy-lookups-data==1.0.5

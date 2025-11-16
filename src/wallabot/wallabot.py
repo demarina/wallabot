@@ -7,11 +7,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
+from utils.mongo_db import MongoDB
+from src.trainer.ner import Ner
+
 OFFERS_URL = (
     "https://es.wallapop.com/search?"
     "distance_in_km=50&time_filter=lastMonth&min_sale_price=500&max_sale_price=2000&"
     "keywords=bicicleta+orbea&order_by=price_high_to_low&source=side_bar_filters"
 )
+COLLECTION_NAME = 'walla_bikes'
 
 
 def main():
@@ -20,6 +24,9 @@ def main():
     chrome_options.add_argument("--incognito")
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     chrome_options.add_argument("--start-maximized")
+
+    walla_ner = Ner(nlp_model_path='/Users/duqueitor/PycharmProjects/wallabot/src/trainer/data')
+    mongo_cli = MongoDB(host='localhost', port='27017', db_name='wallabot', user='admin', password='admin123')
 
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
@@ -43,27 +50,39 @@ def main():
     try:
         wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "item-card_ItemCard--vertical__CNrfk")))
         cards = driver.find_elements(By.CLASS_NAME, "item-card_ItemCard--vertical__CNrfk")
-        print(f"✅ Se encontraron {len(cards)} productos.")
+        print(f"Se encontraron {len(cards)} productos.")
     except TimeoutException:
-        print("❌ No se cargaron productos.")
+        print("No se cargaron productos.")
         driver.quit()
         return
 
-    print("\n🟢 Buenos días Argonauta, estas son tus ofertas para hoy:\n")
-
     for e in cards:
         try:
-            titulo = e.find_element(By.CLASS_NAME, "item-card_ItemCard__title__5TocV").text
-            precio = e.find_element(By.CLASS_NAME, "item-card_ItemCard__price__pVpdc").text
-            enlace = e.tag_name == "a" and e.get_attribute("href") or e.find_element(By.TAG_NAME, "a").get_attribute("href")
-            
-            print(f"- 🚲 {titulo} | 💰 {precio} | 🔗 {enlace}")
+            title = e.find_element(By.CLASS_NAME, "item-card_ItemCard__title__5TocV").text
+            price = e.find_element(By.CLASS_NAME, "item-card_ItemCard__price__pVpdc").text
+            link = e.tag_name == "a" and e.get_attribute("href") or e.find_element(By.TAG_NAME, "a").get_attribute(
+                "href")
+            id = link.split('-')[-1]
+
+            features = walla_ner.predict(query=title)
+
+            print(f"{title} | {price} | {features}")
+
+            bike_info = {
+                'title': title,
+                'price': price,
+                'link': link,
+                'features': features,
+                'id': id
+            }
+
+            mongo_cli.insert(coll_name=COLLECTION_NAME, data=bike_info)
 
         except Exception as err:
             print(f"Error procesando una tarjeta: {err}")
             continue
 
-    print("\n✅ Fin del scraping.")
+    print("\nFin del scraping.")
     driver.quit()
 
 
