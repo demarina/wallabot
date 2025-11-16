@@ -6,7 +6,6 @@ RUN mkdir /app/data
 
 COPY ner.py ner.py
 COPY ner_cli.py ner_cli.py
-#COPY data /app/data
 
 RUN apt-get update && apt-get install -y build-essential gcc -y
 
