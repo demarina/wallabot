@@ -1,2 +1,4 @@
 spacy==3.8.9
 spacy-lookups-data==1.0.5
+uvicorn==0.38.0
+fastapi==0.122.0

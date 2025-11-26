@@ -22,7 +22,7 @@ class Ner:
 
     def __init__(self, nlp_model_path: str = None):
         if nlp_model_path is not None:
-            self._nlp_model = spacy.load(os.path.join(nlp_model_path, self.WALLABOT_MODEL_NAME))
+            self._nlp_model = spacy.load(os.path.join(nlp_model_path, 'model', self.WALLABOT_MODEL_NAME))
 
     def generate_training_data(self, data_folder_path: str) -> None:
         print('Start generating dataset...')

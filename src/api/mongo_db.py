@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, List
 
 from pymongo import MongoClient
 
@@ -20,3 +20,7 @@ class MongoDB:
         docs = coll.find()
 
         return docs
+
+    def list_coll(self) -> List:
+        return self.__db.list_collection_names()
+

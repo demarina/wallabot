@@ -3,7 +3,7 @@ version: "3.9"
 services:
   mongo:
     image: mongo:6.0
-    container_name: mongo
+    container_name: walla_mongo
     restart: always
     ports:
       - "27017:27017"
@@ -12,14 +12,34 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: admin123
     volumes:
       - mongo_data:/data/db
+    networks:
+      - wallanet
 
-  trainer:
+  api:
     build:
-      context: trainer
+      context: ./api
       dockerfile: Dockerfile
-    container_name: trainer_container
-    volumes:
-      - ./trainer/data:/app/data
+    container_name: walla_api
+
+    ports:
+      - "8000:8000"
+
+    networks:
+      - wallanet
+
+  web:
+    build:
+      context: ./wallabot-web
+      dockerfile: Dockerfile
+    container_name: walla_web
+    networks:
+      - wallanet
+    ports:
+      - "8080:80"
 
 volumes:
   mongo_data:
+
+networks:
+  wallanet:
+    driver: bridge
