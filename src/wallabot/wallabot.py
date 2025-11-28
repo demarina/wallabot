@@ -23,7 +23,7 @@ OFFERS_URL = (
 )
 COLLECTION_NAME = 'walla_bikes'
 DOWNLOAD_IMAGES_FOLDER_PATH = ''  # COMPLETE
-DEEP_SEEK_API_KEY = 'sk-a0283572fde3497ca8ca12e6ee8daf0c'
+DEEP_SEEK_API_KEY = ''  # COMPLETE
 
 client = OpenAI(
     api_key=DEEP_SEEK_API_KEY,

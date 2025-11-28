@@ -9,3 +9,4 @@ src/__pycache__/
 src/wallabot/utils/__pycache__/
 src/trainer/__pycache__/
 src/api/__pycache__/
+.DS_Store
